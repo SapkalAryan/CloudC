@@ -1,0 +1,6 @@
+services:
+- type: web
+name: cloud-computing-lab-paas
+runtime: python
+plan: free
+buildCommand: pip install -r requirements.txt
