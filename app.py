@@ -7,8 +7,7 @@ def home():
  <h1>Cloud Computing Lab - Experiment 5</h1>
  <h2>PaaS Implementation using Render</h2>
  <p>This application is deployed on Render's free PaaS tier!</p>
- <p>Current Time: """ + __import__('datetime').datetime.now().strftime("%Y-%m-%d
-%H:%M:%S") + """</p>
+ <p>Current Time: """ + __import__('datetime').datetime.now().strftime("%Y-%m-%d %H:%M:%S") + """</p>
  """
 @app.route('/health')
 def health():
