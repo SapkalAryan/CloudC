@@ -12,7 +12,6 @@ def home():
 @app.route('/health')
 def health():
  return {"status": "healthy", "platform": "Render PaaS"}
-Cloud Computing Lab Page 5 of 7
 if __name__ == '__main__':
  port = int(os.environ.get('PORT', 5000))
  app.run(host='0.0.0.0', port=port)
